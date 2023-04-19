@@ -1,0 +1,28 @@
+.table-data .ant-table-thead .ant-table-cell {
+  background-color: #1976d2;
+  color: #fff;
+}
+
+.table-box-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem;
+}
+
+.table-title {
+  font-size: 30px;
+  font-weight: 600;
+}
+
+.box-action {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+}
+
+:where(.css-dev-only-do-not-override-ph9edi).ant-table-wrapper
+  .ant-table-filter-trigger {
+  color: #fff;
+}

@@ -1,0 +1,14 @@
+.donut-title {
+  font-size: 30px;
+  font-weight: 600;
+}
+
+/* .box-bar {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+} */
+
+.apexcharts-toolbar {
+  display: none !important;
+}

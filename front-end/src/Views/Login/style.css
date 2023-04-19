@@ -1,0 +1,56 @@
+.container-login {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #373b44; /* fallback for old browsers */
+  background: -webkit-linear-gradient(
+    to right,
+    #4286f4,
+    #373b44
+  ); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(
+    to right,
+    #4286f4,
+    #373b44
+  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+.box-login {
+  border-radius: 30px !important;
+  padding: 1rem;
+  width: 400px;
+  height: 300px;
+  /* background-color: rgba(250, 250, 250, 0.5) !important; */
+}
+
+.login-title {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 30px;
+  font-weight: 600;
+}
+
+.form-login {
+  margin-bottom: 1rem;
+}
+
+.group-input {
+  margin: 1rem;
+}
+
+.label-input {
+  font-size: 18px;
+  font-weight: 500;
+}
+
+.Input-login {
+  background-color: rgba(250, 250, 250) !important;
+  border: 0;
+}
+
+.Input-login > input[type="password"] {
+  background: transparent;
+}

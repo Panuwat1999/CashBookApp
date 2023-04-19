@@ -1,0 +1,42 @@
+.card-title {
+  font-size: 30px;
+  font-weight: 600;
+}
+
+.box-list {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.content-list {
+  font-size: 20px;
+  font-weight: 500;
+}
+
+.content-list-amount {
+  font-size: 30px;
+  font-weight: 600;
+}
+
+.amount-list {
+  font-size: 30px;
+  font-weight: 600;
+}
+
+.box-content-amount {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.box-content-amount .content-list {
+  margin-right: 1rem;
+}
+
+.box-all {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
